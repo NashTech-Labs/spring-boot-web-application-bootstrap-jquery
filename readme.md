@@ -1,25 +1,6 @@
 <!---
-Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-web-application-bootstrap-jquery
+Current Directory : /knoldus/git/spring-boot-examples/spring-boot-web-application-bootstrap-jquery
 -->
-
-## Keep Learning Every Day
-
-- **1:** [FOLLOW](https://links.in28minutes.com/lin) Ranga on LinkedIn
-
-## Check Out Our Amazing ROADMAPS
-
-- **1:** [AWS Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#aws-roadmap)
-- **2:** [Azure Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#azure-roadmap)
-- **3:** [Google Cloud Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#google-cloud-roadmap)
-- **4:** [Cloud Beginner Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#cloud-beginner-roadmap)
-- **5:** [DevOps Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#devops-roadmap)
-- **6:** [Java Full Stack Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#java-full-stack-roadmap)
-- **
-  7:** [Java Microservices Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#java-microservices-roadmap)
-
-### More Courses and Videos From in28Minutes
-
-- https://github.com/in28minutes/learn
 
 ## Example Code
 
@@ -37,7 +18,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-web-applic
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
-  <groupId>com.in28minutes.springboot.web.application</groupId>
+  <groupId>com.knoldus.springboot.web.application</groupId>
   <artifactId>spring-boot-web-application-bootstrap-jquery</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -129,10 +110,10 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-web-applic
 
 ---
 
-### /src/main/java/com/in28minutes/springboot/tutorial/basics/application/configuration/SpringBootWebApplicationBootstrapJqueryApplication.java
+### /src/main/java/com/knoldus/springboot/application/configuration/SpringBootWebApplicationBootstrapJqueryApplication.java
 
 ```java
-package com.in28minutes.springboot.tutorial.basics.application.configuration;
+package com.knoldus.springboot.tutorial.basics.application.configuration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -196,75 +177,7 @@ alert("I'm active");
 
 ---
 
-### /src/main/webapp/WEB-INF/jsp/welcome.jsp
 
-```
-<html>
-<head>
-	<title>Welcome</title>
-	<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
-		rel="stylesheet">
-	<link href="css/custom.css"
-		rel="stylesheet">
-</head>
-<body>
-	<div class="container">
-		<table class="table table-striped">
-			<caption>Your todos are</caption>
-			<thead>
-				<tr>
-					<th>Description</th>
-					<th>Target Date</th>
-					<th>Is it Done?</th>
-					<th>Edit</th>
-					<th>Delete</th>
-				</tr>
-			</thead>
-			<tbody>
-					<tr>
-						<td>Todo 1</td>
-						<td>10/12/2017</td>
-						<td>No</td>
-						<td><a class="btn btn-warning" href="/edit-todo">Edit Todo</a></td>
-						<td><a class="btn btn-warning" href="/delete-todo">Delete Todo</a></td>
-					</tr>
-			</tbody>
-		</table>
-		<div>
-			<a class="btn btn-default" href="/add-todo">Add a Todo</a>
-			
-		</div>
-		<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
-		<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="js/custom.js"></script>
-	</div>
-</body>
-</html>
-```
-
----
-
-### /src/test/java/com/in28minutes/springboot/tutorial/basics/application/configuration/SpringBootWebApplicationBootstrapJqueryApplicationTests.java
-
-```java
-package com.in28minutes.springboot.tutorial.basics.application.configuration;
-
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
-
-// replaced @RunWith with @ExtendWith
-// replaced SpringRunner.class with SpringExtension.class
-@ExtendWith(SpringExtension.class)
-@SpringBootTest
-public class SpringBootWebApplicationBootstrapJqueryApplicationTests {
-
-  @Test
-  public void contextLoads() {
-  }
-
-}
 ```
 
 ---
